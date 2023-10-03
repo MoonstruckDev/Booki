@@ -17,19 +17,21 @@
 
 <body>
     <div class="main-container">
-        <header>
+        <header class="page-header">
             <!-- Adding The Logo -->
             <img src="images/logo/Booki.png" class="logo" alt="Logo De Booki">
             <nav>
                 <!-- Creation Of The Navigation Bar -->
-                <div class="main-nav">
-                    <a href="#hebergements" class="border">Hébergements</a>
-                    <a href="#activités" class="border">Activités</a>
+                <div>
+                    <ul class="main-nav">
+                    <li><a href="#hebergements" class="border">Hébergements</a></li>
+                    <li><a href="#activités" class="border">Activités</a></li>
+                    </ul>
                 </div>
             </nav>
         </header>
         <main>
-            <!-- Creation Of The Research Section -->
+            <!-- Creation Of The Search Section -->
             <div class="recherche-herbergements">
              <section class="info-group">
                 <div class="search-title">
@@ -39,30 +41,24 @@
                 <div class="search-bar">
                     <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
                     <form action="" method="get">
-                        <input type="search" placeholder="Marseille, France">
-                        <button type="submit">Rechercher</button>
+                        <input class="text-input" type="search" placeholder="Marseille, France"><button class="submit_button" type="submit"><h4>Rechercher</h4></button>
                     </form>
                 </div>
 
-                
+                <!-- Creation Of The Filter Section -->
                 <div class="filter-section">
                     <h4>Filtres</h4>
                     <div class="filters">
                       <div class="filter"><h4>Économique</h4><i class="fa-solid fa-money-bill-wave"></i></div>
                       <div class="filter"><h4>Familial</h4><i class="fa-solid fa-person"></i></div>
                       <div class="filter"><h4>Romantique</h4><i class="fa-solid fa-heart"></i></div>
-                     <div class="filter"><h4>Nos Pepitos</h4><i class="fa-solid fa-fire"></i></div>
+                     <div class="filter"><h4>Nos Pepites</h4><i class="fa-solid fa-fire"></i></div>
                     </div>
                 </div>
              </section>
             </div>
-
-
-
-
-
-
-
+            
+            <!-- Most Popular -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements"></section>
                 <section class="populaires">

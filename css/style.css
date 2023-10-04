@@ -17,7 +17,6 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-
 }
 
 .main-container {
@@ -25,11 +24,20 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.secondary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 /* Removing default margins and paddings for headers */
@@ -56,7 +64,7 @@ h3, h4, p { margin: 0; padding: 0;}
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .neutral-star {
@@ -118,7 +126,7 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     flex-direction: column;
     gap: 35px;
-    margin-bottom: 35px;
+
 }
 
 /****** Search Bar *********/
@@ -301,6 +309,7 @@ button, .filter:hover { cursor: pointer;}
     margin: 0;
     padding: 0;
     margin-top: 8px;
+    font-size: 14px;
 }
 
 .hebergements-cards .card-rating {
@@ -353,6 +362,74 @@ button, .filter:hover { cursor: pointer;}
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.section-activités {
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+.activités-title {padding: 0; margin-bottom: 30px;}
+
+.activites-cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 30px;
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 297px;
+    height: 439px;
+    
+}
+
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+}
+
+.activites-cards .card-content {
+    padding: 20px 19px;
+
+}
+
+/****** filtres ***********/
+
+.footer {
+    width: 100%;
+    height: 163px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: var(--main-bg-color);
+    padding-bottom: 60.5px;
+}
+
+.footer .container {
+    padding: 20px;
+    width: 100%;
+    
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    padding-top: 15px;
+}
 
 
 

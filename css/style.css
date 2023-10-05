@@ -22,9 +22,8 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
-
+    padding: 0 50px;
     display: flex;
     flex-direction: column;
 }
@@ -34,6 +33,7 @@ a {
     text-decoration: none;
 }
 
+/* Secondary Container to evenly space out my website */
 .secondary-container {
     display: flex;
     flex-direction: column;
@@ -85,7 +85,6 @@ button, .filter:hover { cursor: pointer;}
 
 .page-header {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 30px;
 }
@@ -150,10 +149,8 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 50px;
     height: 49px;
-
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
 
@@ -209,6 +206,11 @@ button, .filter:hover { cursor: pointer;}
     order: 0;
 }
 
+.FilterBar .fa-solid {
+    order: -1;
+    margin-right: 10px;
+    size: 22px;
+}
 
 .FilterBar .filter {
     display: flex;
@@ -227,12 +229,7 @@ button, .filter:hover { cursor: pointer;}
     background-color: rgba(0, 101, 252, 0.4);
 }
 
-.FilterBar .fa-solid {
-    order: -1;
-    margin-right: 10px;
-    size: 22px;
 
-}
 
 /****** Info Bar *********/
 

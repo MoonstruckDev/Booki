@@ -234,6 +234,8 @@ button, .filter:hover { cursor: pointer;}
 
 }
 
+/****** Info Bar *********/
+
 .infobar {
     display: flex;
     align-items: center;
@@ -301,13 +303,8 @@ button, .filter:hover { cursor: pointer;}
     padding: 0px 15px;
 }
 
-.hebergements-cards .card-title {
-    margin: 0;
-}
 
 .hebergements-cards .card-subtitle {
-    margin: 0;
-    padding: 0;
     margin-top: 8px;
     font-size: 14px;
 }
@@ -393,7 +390,6 @@ button, .filter:hover { cursor: pointer;}
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 0;
 }
 
 .activites-cards .card-content {
@@ -401,7 +397,7 @@ button, .filter:hover { cursor: pointer;}
 
 }
 
-/****** filtres ***********/
+/****** Footer ***********/
 
 .footer {
     width: 100%;
@@ -418,8 +414,6 @@ button, .filter:hover { cursor: pointer;}
 .footer .container {
     padding: 20px;
     width: 100%;
-    
-
 }
 
 .footer-links {

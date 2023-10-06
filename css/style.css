@@ -14,7 +14,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -40,7 +40,7 @@ a {
     gap: 35px;
 }
 
-/* Removing default margins and paddings for headers */
+/* CSS Reset */
 h3, h4, p { margin: 0; padding: 0;}
 
 .section-title {
@@ -105,12 +105,14 @@ button, .filter:hover { cursor: pointer;}
     list-style: none;
 }
 
-.menu-list .link {
+.link a {
+    display: block;
     border-top: 2px solid transparent;
     padding-top: 16px;
+    /* padding: 16px; // Make the buttons bigger more clickable, use pseudoelements to tamper with the border.*/ 
 }
 
-.menu-list .link:hover {
+.link a:hover {
     border-top: 2px solid var(--main-color);
     color: var(--main-color);
 }
@@ -212,7 +214,7 @@ button, .filter:hover { cursor: pointer;}
     size: 22px;
 }
 
-.FilterBar .filter {
+.FilterBar .button {
     display: flex;
     align-items: center;
     height: 50px;
@@ -264,26 +266,38 @@ button, .filter:hover { cursor: pointer;}
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%; 
+    width: 68%;
+    display: flex;
+    flex-flow: column; 
+    margin-right: 30px;
+
+}
+
+.hebergements-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hebergements-title {
     margin-bottom: 30px;
 }
 
-.hebergements-cards {
+.hebergements a {width: 30%;}
+
+.hebergements-cards .card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-    
+    flex-direction: column;
+    height: 207px;
+    margin-bottom: 30px;
+    gap: 4px;
 }
 
-.hebergements .card {
-    width: 240px;
-    height: 207px;
-    padding-bottom: 15px;
-
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 15px
 }
 
 .card img {
@@ -293,23 +307,7 @@ button, .filter:hover { cursor: pointer;}
     margin-bottom: 4px;
 }
 
-.hebergements-cards .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 0px 15px;
-}
-
-
-.hebergements-cards .card-subtitle {
-    margin-top: 8px;
-    font-size: 14px;
-}
-
-.hebergements-cards .card-rating {
-    padding: 0 0 15px 0;
-
-}
+.show-more { margin-top: 30px}
 
 /****** Populaires ***********/
 .populaires {

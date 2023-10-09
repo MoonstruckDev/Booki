@@ -295,6 +295,12 @@ button, .filter:hover { cursor: pointer;}
 
 }
 
+.card img {
+    height: 119px;
+    border-radius: 20px 20px 0 0;
+    border-bottom: solid 5px white;
+}
+
 .hebergements-cards .card-content {
     display: flex;
     flex-direction: column;
@@ -305,17 +311,6 @@ button, .filter:hover { cursor: pointer;}
 .hebergements-cards .card-title, .card-subtitle{
     margin: 0 0 8px 0;
 }
-
-
-.card img {
-    height: 119px;
-    border-radius: 20px 20px 0 0;
-    border-bottom: solid 5px white;
-}
-
-
-
-
 
 /****** Populaires ***********/
 .populaires {

@@ -292,6 +292,7 @@ button, .filter:hover { cursor: pointer;}
     height: 207px;
     margin-bottom: 30px;
     gap: 4px;
+
 }
 
 .hebergements-cards .card-content {
@@ -312,10 +313,7 @@ button, .filter:hover { cursor: pointer;}
     border-bottom: solid 5px white;
 }
 
-.hebergements-cards .card-rating {
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
+
 
 
 

@@ -210,7 +210,6 @@ button, .filter:hover { cursor: pointer;}
 .FilterBar .fa-solid {
     order: -1;
     margin-right: 10px;
-    size: 22px;
 }
 
 .FilterBar .button {

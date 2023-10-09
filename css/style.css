@@ -292,7 +292,6 @@ button, .filter:hover { cursor: pointer;}
     height: auto;
     margin-bottom: 30px;
     gap: 4px;
-
 }
 
 .card img {
@@ -367,20 +366,22 @@ button, .filter:hover { cursor: pointer;}
 .activités-title {padding: 0; margin-bottom: 30px;}
 
 .activites-cards {
-
     display: flex;
-    flex-wrap: wrap;
+
     margin: 0;
     gap: 30px;
 }
+
+.activites-cards a {
+    width: 25%;
+}
+
 
 .activites-cards .card {
     display: flex;
     flex-direction: column;
     padding: 0;
-    width: 297px;
-    height: 439px;
-    
+
 }
 
 .activites-cards img {
@@ -402,7 +403,6 @@ button, .filter:hover { cursor: pointer;}
     height: 163px;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
     background-color: var(--main-bg-color);

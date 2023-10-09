@@ -308,7 +308,7 @@ button, .filter:hover { cursor: pointer;}
 }
 
 .hebergements-cards .card-title, .card-subtitle{
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
 }
 
 /****** Populaires ***********/
@@ -367,7 +367,6 @@ button, .filter:hover { cursor: pointer;}
 
 .activites-cards {
     display: flex;
-
     margin: 0;
     gap: 30px;
 }

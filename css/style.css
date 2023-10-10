@@ -571,6 +571,10 @@ button, .filter:hover { cursor: pointer;}
         width: 75%;
     }
 
+    .search-bar form {
+        width: 100%
+    }
+
     .FilterBar {
         flex-direction: column;
     }

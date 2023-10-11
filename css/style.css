@@ -513,7 +513,7 @@ button, .filter:hover { cursor: pointer;}
     .search-bar form { 
         width: 100%;
         display: flex;
-        justify-content: space-between; 
+        justify-content: space-bet; 
     
     }
     .search-bar .submit_button_desktop { display: none; }
@@ -537,13 +537,15 @@ button, .filter:hover { cursor: pointer;}
     .filter-buttons {
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 20px 0;
+        gap: 20px 10px;
+
     }
     
     .filter-buttons button {
         width: 48%;
-        font-size: 16px;
-        margin-right: 0;
+        font-size: 14px;
+        margin: 0;
+        padding: 13px
     }
 
 

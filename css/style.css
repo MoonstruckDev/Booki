@@ -144,11 +144,11 @@ button, .filter:hover { cursor: pointer;}
 
 .search-bar .text-input {
 
-    background-color: white;
+    background-color: white; /* Fix Issue #1 */
 
     border: none;
     width: 210px;
-    height: 41px;
+    height: 49px; 
   
     font-size: 18px;
     font-weight: 700;
@@ -157,6 +157,7 @@ button, .filter:hover { cursor: pointer;}
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
 }
+
 
 .search-bar .submit_button_desktop {
     border: none;

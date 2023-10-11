@@ -125,7 +125,6 @@ button, .filter:hover { cursor: pointer;}
 
 .search-bar {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     width: 400px;
@@ -511,7 +510,12 @@ button, .filter:hover { cursor: pointer;}
     /***** Mobile Search Bar *****/
 
     .search-bar { width: 100%; }
-    .search-bar form { width: 100% }
+    .search-bar form { 
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+    
+    }
     .search-bar .submit_button_desktop { display: none; }
     
     .search-bar .submit_button_mobile { 

@@ -485,7 +485,7 @@ button, .filter:hover { cursor: pointer;}
         gap: 0px;
         text-align: center;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     };
 
     .menu-list .link { width: 50%; }

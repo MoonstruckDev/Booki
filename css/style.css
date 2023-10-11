@@ -522,7 +522,7 @@ button, .filter:hover { cursor: pointer;}
 
     .search-bar .text-input {
         text-align: left;
-        width: 75%;
+        width: 78.1%;
     }
 
      /***** Mobile Filters *****/
@@ -531,13 +531,15 @@ button, .filter:hover { cursor: pointer;}
 
     .filter-buttons {
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         gap: 20px 0;
     }
     
     .filter-buttons button {
-        width: 44.5%;
+        justify-content: flex;
+        width: 48%;
         font-size: 14px;
+        margin-right: 0;
     }
 
 

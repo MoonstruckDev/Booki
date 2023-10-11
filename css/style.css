@@ -269,17 +269,14 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     flex-flow: column; 
     margin-right: 30px;
-
+    gap: 30px;
 }
 
 .hebergements-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.hebergements-title {
-    margin-bottom: 30px;
+    gap: 30px;
 }
 
 .hebergements a {width: 30%;}
@@ -288,7 +285,6 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-bottom: 30px;
     gap: 4px;
 }
 
@@ -297,8 +293,6 @@ button, .filter:hover { cursor: pointer;}
     border-radius: 20px 20px 0 0;
     border-bottom: solid 5px white;
 }
-
-
 
 .hebergements-cards .card-content {
     display: flex;
@@ -311,6 +305,8 @@ button, .filter:hover { cursor: pointer;}
     white-space: nowrap; /* Prevent text wrapping */
     overflow: hidden; /* Hide overflowing content */
 }
+
+#show-more-title { text-align: start; }
 
 
 /****** Populaires ***********/

@@ -144,6 +144,8 @@ button, .filter:hover { cursor: pointer;}
 
 .search-bar .text-input {
 
+    background-color: white;
+
     border: none;
     width: 210px;
     height: 41px;
@@ -279,7 +281,7 @@ button, .filter:hover { cursor: pointer;}
     gap: 30px;
 }
 
-.hebergements a {width: 30%;}
+.hebergements a {width: 29.6%;}
 
 .hebergements-cards .card {
     display: flex;

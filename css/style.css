@@ -203,7 +203,7 @@ button, .filter:hover { cursor: pointer;}
 
 .filter-buttons button {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 50px;
     border: 2px solid #D9D9D9;
@@ -522,7 +522,8 @@ button, .filter:hover { cursor: pointer;}
 
     .search-bar .text-input {
         text-align: left;
-        width: 78.1%;
+        width: 77.2%;
+        font-size: 16px;
     }
 
      /***** Mobile Filters *****/
@@ -536,9 +537,8 @@ button, .filter:hover { cursor: pointer;}
     }
     
     .filter-buttons button {
-        justify-content: flex;
         width: 48%;
-        font-size: 14px;
+        font-size: 16px;
         margin-right: 0;
     }
 

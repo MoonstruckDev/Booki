@@ -113,7 +113,6 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     flex-direction: column;
     gap: 35px;
-
 }
 
 /****** Search Bar *********/
@@ -141,7 +140,6 @@ button, .filter:hover { cursor: pointer;}
     height: 49px;
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
-
 }
 
 .search-bar .text-input {
@@ -264,8 +262,6 @@ button, .filter:hover { cursor: pointer;}
     box-sizing: border-box;
 }
 
-
-
 /****** Hebergements ***********/
 
 .hebergements {
@@ -314,9 +310,7 @@ button, .filter:hover { cursor: pointer;}
 
     white-space: nowrap; /* Prevent text wrapping */
     overflow: hidden; /* Hide overflowing content */
-
 }
-
 
 
 /****** Populaires ***********/
@@ -354,13 +348,8 @@ button, .filter:hover { cursor: pointer;}
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-subtitle {
-    margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
-}
+.populaires-cards .card-subtitle { margin: 0; }
+.populaires-cards .card-rating { margin-bottom: 5px; }
 
 /****** Activités ***********/
 
@@ -369,7 +358,7 @@ button, .filter:hover { cursor: pointer;}
     margin-bottom: 35px;
 }
 
-.activités-title {padding: 0; margin-bottom: 30px;}
+.activités-title { padding: 0; margin-bottom: 30px; }
 
 .activites-cards {
     display: flex;
@@ -383,7 +372,6 @@ button, .filter:hover { cursor: pointer;}
 .activites-cards .card {
     display: flex;
     flex-direction: column;
-
 }
 
 .activites-cards img {
@@ -512,7 +500,6 @@ button, .filter:hover { cursor: pointer;}
     .link a:hover {
         border: none;
         border-bottom: 2px solid var(--main-color);
-
     }
 
     /***** Mobile Info Group Section *****/
@@ -538,8 +525,6 @@ button, .filter:hover { cursor: pointer;}
         text-align: left;
         width: 75%;
     }
-
-
 
      /***** Mobile Filters *****/
 

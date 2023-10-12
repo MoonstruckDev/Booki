@@ -177,6 +177,7 @@ button, .filter:hover { cursor: pointer;}
     font-size: 18px;
 }
 
+/* Fixes issue #4: Whitespace only text node */
 .search-bar form {
     display: inline-flex;
 }

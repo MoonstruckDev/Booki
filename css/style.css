@@ -161,7 +161,7 @@ button, .filter:hover { cursor: pointer;}
 .search-bar .submit_button_desktop {
     border: none;
     background-color: var(--main-color);
-    padding: 13px 16px;
+    padding: 0 16px;
     border-radius: 0px 15px 15px 0px;
     color: white;
     font-size: 18px;

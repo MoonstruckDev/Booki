@@ -141,6 +141,9 @@ button, .filter:hover { cursor: pointer;}
     border-radius: 15px 0px 0px 15px;
 }
 
+/* Fixes issue #4: Whitespace only text node */
+.search-bar form { display: inline-flex; }
+
 .search-bar .text-input {
 
     background-color: white; /* Fix Issue #1 */
@@ -156,7 +159,6 @@ button, .filter:hover { cursor: pointer;}
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
 }
-
 
 .search-bar .submit_button_desktop {
     border: none;
@@ -177,11 +179,6 @@ button, .filter:hover { cursor: pointer;}
     font-size: 18px;
 }
 
-/* Fixes issue #4: Whitespace only text node */
-.search-bar form {
-    display: inline-flex;
-}
-
 ::placeholder {
     color: black;
     opacity: 1;
@@ -195,15 +192,10 @@ button, .filter:hover { cursor: pointer;}
 
 .FilterBar {
     display: flex;
-    flex-direction: row;
     gap: 15px;
 }
 
-.filter-buttons {
-    display: flex;
-    flex-direction: row;
-  
-}
+.filter-buttons { display: flex; }
 
 .filter-buttons button {
     display: flex;

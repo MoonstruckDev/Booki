@@ -65,6 +65,9 @@ button {
 
 button, .filter:hover { cursor: pointer;}
 
+/* Smooth Anchor Jumping */ 
+html { scroll-behavior: smooth;}
+
 
 /****** Header ***********/
 
@@ -403,7 +406,7 @@ button, .filter:hover { cursor: pointer;}
     width: 80%;
 }
 
-.footer-links {
+.footer__links {
     list-style: none;
     padding: 0;
 }

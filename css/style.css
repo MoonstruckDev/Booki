@@ -1,7 +1,6 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
-}
+    font-family: 'Raleway', sans-serif; }
 
 :root {
     --main-color: #0065FC;
@@ -301,7 +300,6 @@ button, .filter:hover { cursor: pointer;}
     flex-direction: column;
     gap: 8px;
     padding-left: 15px;
-    text-wrap: nowrap;
     padding-bottom: 15px;
 
     white-space: nowrap; /* Prevent text wrapping */
@@ -485,7 +483,7 @@ button, .filter:hover { cursor: pointer;}
         text-align: center;
         display: flex;
         justify-content: space-evenly;
-    };
+    }
 
     .menu-list .link { width: 50%; }
 
@@ -513,7 +511,7 @@ button, .filter:hover { cursor: pointer;}
     .search-bar form { 
         width: 100%;
         display: flex;
-        justify-content: space-bet; 
+        justify-content: space-between; 
     
     }
     .search-bar .submit_button_desktop { display: none; }
@@ -585,6 +583,5 @@ button, .filter:hover { cursor: pointer;}
     }
 
     /***** Mobile Footer Addendum *****/
-
     .grey-bar { display: none;}
 }

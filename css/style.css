@@ -223,7 +223,6 @@ html { scroll-behavior: smooth;}
 .FilterBar .filter-title {
     display: flex;
     align-items: center;
-    order: 0;
 }
 
 .filter-buttons button:hover {

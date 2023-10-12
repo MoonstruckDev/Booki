@@ -89,6 +89,7 @@ button, .filter:hover { cursor: pointer;}
     display: flex;
     gap: 68px;
     list-style: none;
+    padding: 0 25px;
 }
 
 .link a {

@@ -214,6 +214,10 @@ button, .filter:hover { cursor: pointer;}
     border-radius: 25px;
     padding: 0px 19px;
     margin-right: 15px;
+
+    /* Kinda Fixes issue #5 */
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .filter-buttons .fa-solid {

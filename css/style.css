@@ -405,9 +405,10 @@ html { scroll-behavior: smooth;}
     width: 80%;
 }
 
-.footer__links {
+.footer-links {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .footer-links li { padding-top: 15px; }

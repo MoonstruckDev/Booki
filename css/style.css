@@ -51,7 +51,13 @@ h3, h4, p, body { margin: 0; padding: 0;}
     filter: drop-shadow(0 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card img { object-fit: cover; }
+.card__popular {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img, .activites-cards img { object-fit: cover; }
 .card-title { font-size: 16px; }
 .euro { font-weight: 600; }
 .neutral-star { color: var(--main-bg-color); }

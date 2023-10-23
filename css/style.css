@@ -378,7 +378,6 @@ html { scroll-behavior: smooth;}
 .activites-cards .card__activity {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .activites-cards img {
@@ -468,7 +467,7 @@ footer::after {
     
     .activites-cards img { height: 170px; }
     .activites-cards .card-content { white-space: initial; }
-    .activites-cards .card { height: 100%; }
+    .activites-cards .card__activity { height: 100%; }
 
     /***** Tablet Footer Addendum Section *****/
     .grey-bar { display: none;}

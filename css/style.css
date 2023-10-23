@@ -375,7 +375,7 @@ html { scroll-behavior: smooth;}
 .activites-cards a { width: 25%; }
 
 
-.activites-cards .card {
+.activites-cards .card__popular {
     display: flex;
     flex-direction: column;
 }

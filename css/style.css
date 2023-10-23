@@ -51,7 +51,7 @@ h3, h4, p, body { margin: 0; padding: 0;}
     filter: drop-shadow(0 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card__popular {
+.card__activity {
     background-color: white;
     border-radius: 20px;
     filter: drop-shadow(0 3px 15px rgba(0, 0, 0, 0.1));
@@ -375,7 +375,7 @@ html { scroll-behavior: smooth;}
 .activites-cards a { width: 25%; }
 
 
-.activites-cards .card__popular {
+.activites-cards .card__activity {
     display: flex;
     flex-direction: column;
 }

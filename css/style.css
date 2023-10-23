@@ -449,6 +449,14 @@ footer::after {
     .populaires-cards .card-title { font-size: 14px; }
     .populaires-cards .card-subtitle { font-size: 13px; }
 
+    /***** Tablet Filter Section *****/
+
+    .FilterBar { 
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
     /***** Tablet Activity Section *****/
     
     .activites-cards img { height: 170px; }
